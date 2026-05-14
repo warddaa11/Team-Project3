@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+body
 
 /* !-----------Hero Section----------- */
 .HeroSection{
@@ -89,4 +90,66 @@
     border-radius: 10px;
     text-align: center;
     
+}
+
+/* *header-------------------- */
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border: 1px;
+    border-radius: 15px;
+    background-color: rgb(61, 62, 86);
+    padding: 5px 0px 5px 0px;
+    margin: 5px;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-direction: row;
+    color: white;
+    margin-top: 5px;
+    
+}
+.fa-brands{
+    margin-bottom:10px ;
+    
+}
+.icon1{
+    font-size: 30px;
+}
+.div2{
+    display: flex;
+    gap: 15px;
+    margin-left: 90%;
+    /* color: white; */
+    margin-top: 9px;
+}
+.div2 a:hover{
+    background-color: rgb(117, 174, 0);
+    /* color: white; */
+}
+a{
+     text-decoration: none;
+     color: white;
+     
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+}
+.linkheader{
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    /* background-color: blue; */
+    margin-left: 45%;
+    border: 5px;
+    border-radius: 20px;
+    background-color:rgb(117, 174, 0) ;
+    padding: 7px 40px 7px 30px;
+
+
+
 }
