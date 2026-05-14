@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* !-----------Hero Section----------- */
+.HeroSection{
+    background-color: rgb(14, 16, 34);
+    padding: 4rem 8%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+.ContianerHeroSection{
+    display: flex;
+    
+
+}
+.PragraphHero{
+    background-color: rgb(123, 177, 0);
+    font-weight: bold;
+    width: 110px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.PragraphHero a{
+    text-decoration: none;
+    color: white;
+    
+}
+.PragraphHero1{
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.PragraphHero1 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.ParagraphHero2{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.ContainerParagraphHero{
+    display: flex;
+    gap: 10px;
+}
+.ContianerHeroSection1{
+    display: flex;
+    gap: 200px;
+    border-top: 1px solid gray;
+    padding-top: 1.5rem;
+}
+.ContianerHeroSection1 h1{
+    color: rgb(123, 177, 0);
+    
+}
+/* !------------------ */
+
+/* !--------Porftfolio------ */
+.PortfolioSection{
+    background-color:rgb(14, 16, 34) ;
+    color: white;
+    padding: 0rem 8%;
+}
+.FirstLinePortfolio{
+    display: flex;
+    justify-content: space-between;
+}
+.LineRightPortfolio{
+    display: flex;
+    gap: 20px;
+}
+.ContainerPargraphPortfolio{
+    display: flex;
+    gap: 10px;
+}
+.ContainerPargraphPortfolio p{
+    background-color: rgb(24, 27, 44);
+    color: rgb(154, 163, 178);
+    border: 1px solid rgb(154, 163, 178);
+    display: flex;
+    width: 60px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
