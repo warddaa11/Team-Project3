@@ -24,7 +24,6 @@
 }
 .fa-brands{
     margin-bottom:10px ;
-    
 }
 .icon1{
     font-size: 30px;
@@ -38,7 +37,6 @@
 }
 .div2 a:hover{
     background-color: rgb(117, 174, 0);
-    /* color: white; */
 }
 a{
      text-decoration: none;
@@ -53,7 +51,6 @@ a{
     display: flex;
     justify-content: right;
     gap: 50px;
-    /* background-color: blue; */
     margin-left: 45%;
     border: 5px;
     border-radius: 20px;
