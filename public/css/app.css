@@ -241,7 +241,20 @@ body{
 }
 .ParagraphNum{
     color: rgb(123, 177, 0);
-    font-size: ;
+}
+/* !--------Team Section--- */
+..line{
+    display: flex;
+    justify-content: center;
+
+    height: 0.2vh;
+    background-color: rgb(118, 119, 121);
+    width: 20vw;
+}
+.linegreen{
+    height: 1vh;
+    background-color: rgb(5, 168, 5);
+    width: 6vw;
 }
 
 
