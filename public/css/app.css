@@ -546,8 +546,7 @@ display: flex;
       position: absolute;
     left: 10px;
     top: 70px;
-
-
+    
 }
 .section2div18{
     border: 1px solid black;
@@ -560,17 +559,12 @@ display: flex;
     font-size: 20px;
     text-align: center;
     color: white;
-
 }
 .section2div19{
-    /* display: flex; */
     margin-top: 20px;
-
-
 }
 .p1section2div19{
     font-size: 20px;
-
 }
 /* *section3 */
 .section3{
@@ -608,21 +602,16 @@ display: flex;
 margin-top: 25px;
 color:white;
 }
-.section3div4{
 
-}
 .section3div5{
     display: flex;
     flex-direction: row;
     gap: 10px;
-
 }
 .section3div6{
     display: flex;
     flex-direction: row;
     gap: 10px;
-
-
 }
 .section3div7{
     display: flex;
@@ -636,7 +625,6 @@ color:white;
 }
 .h2section3div8{
     margin-bottom: 15px;
-    /* font-weight: bold; */
 }
 .section3div9{
     display: flex;
@@ -668,9 +656,6 @@ color:white;
     flex-direction: row;
    margin-top: 15%;
    padding: 30px 0px 30px 0px;
-  
-    
-
 }
 .section3div11{
 display: flex;
