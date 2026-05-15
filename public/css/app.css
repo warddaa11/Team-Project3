@@ -13,6 +13,7 @@ body{
     color: white;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    
 }
 .ContianerHeroSection{
     display: flex;
@@ -55,8 +56,9 @@ body{
 .ContianerHeroSection1{
     display: flex;
     gap: 200px;
-    border-top: 1px solid gray;
+    border-top: 1px solid rgb(41, 43, 55);
     padding-top: 1.5rem;
+    margin-top: 20px;
 }
 .ContianerHeroSection1 h1{
     color: rgb(123, 177, 0);
@@ -243,21 +245,122 @@ body{
     color: rgb(123, 177, 0);
 }
 /* !--------Team Section--- */
-..line{
+
+.TeamSection{
+    color: white;
+    padding: 4rem 8%;
+    font-family: 'Poppins', sans-serif;
+}
+.TeamSection h1 {
+    padding-bottom: 2rem;
+}
+.TeamSection h2{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 30px;
+}
+.ContainerNum{
+    display: flex;
+    gap: 20px;
+    padding-top: 4rem;
+}
+.Num{
+    color:rgb(123, 177, 0) ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ContainerImagesTeam{
+    display: flex;
+    gap: 10px;
+}
+.TeamContainer{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
-
-    height: 0.2vh;
-    background-color: rgb(118, 119, 121);
-    width: 20vw;
+    align-items: center;
 }
-.linegreen{
-    height: 1vh;
-    background-color: rgb(5, 168, 5);
-    width: 6vw;
+.Leadership{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+
 }
+.IconTeam i{
+    border: 1px solid gray;
+    gap: 1rem;
+    padding: 6px;
+    margin-top: 4%;
+}
+.Leadership h3{
+    margin: 10% 0%;
+}
+.ImagesTeam{
+    display: flex;
+    gap: 4rem;
 
-
+}
+.BoxTeam{
+    border: 1px solid rgb(41, 43, 55);
+    background-color: rgb(24, 27, 40);
+    flex: 1;
+    
+}
+.ParagraphBox{
+    padding: 10px;
+}
+.PragraphBox1{
+    color: rgb(123, 177, 0);
+    margin: 4% 0%;
+}
+.LineeTeam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.line1{
+    margin-top: 20px;
+    background-color: rgb(67, 70, 84);
+    height: 8px;
+    width: 8px;
+}
+.line2{
+    margin-top: 20px;
+    background-color: rgb(123, 177, 0);
+    height: 8px;
+    width: 20px;
+}
+.LastLineTeam{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    border: 1px solid rgb(41, 43, 55);
+    background-color: rgb(21, 22, 40);
+    padding: 30px 10px;
+}
+.LastLineTeamRight{
+    display: flex;
+    gap: 10px;
+}
+.IconTeam1{
+    color: rgb(123, 177, 0);
+    font-size: 20px;
+}
+.IconTeam1{
+    border: 1px solid gray;
+    gap: 1rem;
+    padding: 6px;
+}
+.UnderLineTitle{
+    border-bottom: 1px solid rgb(99, 101, 113);
+    padding-bottom: 10px;
+}
+.UnderLineTitle1{
+    border-bottom: 2px solid rgb(123, 177, 0);
+    padding-bottom: 10px;
+}
 
 
 /* *header-------------------- */
