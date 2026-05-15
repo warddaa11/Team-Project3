@@ -424,7 +424,7 @@ background: linear-gradient(84deg,rgba(156, 227, 2, 1) 0%, rgba(152, 191, 94, 1)
     display: flex;
     background-color: rgb(32, 35, 48);
     flex-direction: column;
-    background-color: brown;
+    /* background-color: brown; */
     
 
 }
@@ -450,6 +450,10 @@ background: linear-gradient(84deg,rgba(156, 227, 2, 1) 0%, rgba(152, 191, 94, 1)
     display: flex;
     flex-direction: row;
     width: 600px;
+    /* position: absolute;
+    right: 10px;
+    bottom: 10px; */
+    
 }
 .section2div{
   display: flex;
@@ -463,6 +467,7 @@ background: linear-gradient(84deg,rgba(156, 227, 2, 1) 0%, rgba(152, 191, 94, 1)
   /* margin-left: 1px;  */
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  position: relative;
 }
 /* *div3 */
 .section2div3div1{
@@ -491,36 +496,97 @@ font-weight: bold;
 
 }
 .section2div13{
-    border: 1px solid black;
-    padding: 10px 0px 60px 0px;
-width:40%;
+    /* border: 1px solid black; */
+    padding: 10px 0px 30px 0px;
+width:3%;
 color: white;
-flex-direction: column;
+/* flex-direction: column; */
 text-align: center;
-background-color: blue;
+/* background-color: red; */
+display: flex;
+
 
 }
 .section2div14{
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
     gap: 15px;
-    text-align: center;
+    /* text-align: center; */
 
 }
 .section2div15{
     height: 10px;
+     /* position: absolute;
+    right: 10px;
+    bottom: 10px; */
 
 }
 .imagesection2div15{
     width: 30px;
     height: 30px;
     border-radius: 90%;
-    margin-top: 30%;
+    /* margin-top: 30%; */
 
 }
 
 .section2div16{
     color:rgb(130, 187, 0);
     margin-top: 9px;
+
+}
+.section2div133{
+    background-color:rgb(24, 27, 40);
+    border: 1px solid black;
+    width: 25%;
+    padding: 15px 10px 15px 10px;
+    /* display: flex; */
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+      position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.section2pdiv3{
+    color: white;
+    margin-top: 5px;
+}
+.section2div17{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(24, 27, 40);
+      position: absolute;
+    left: 10px;
+    top: 70px;
+
+
+}
+.section2div18{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgb(120, 167, 50) ;
+    width: 10%;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+.section2div19{
+    /* display: flex; */
+    margin-top: 20px;
+
+
+}
+.p1section2div19{
+    font-size: 20px;
 
 }
