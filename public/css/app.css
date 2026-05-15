@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-body
+body{
+    background-color: rgb(14, 16, 34);
+}
 
 /* !-----------Hero Section----------- */
 .HeroSection{
@@ -14,13 +16,12 @@ body
 }
 .ContianerHeroSection{
     display: flex;
-    
-
 }
+
 .PragraphHero{
     background-color: rgb(123, 177, 0);
     font-weight: bold;
-    width: 110px;
+    /* width: 110px; */
     padding: 10px;
     border-radius: 20px;
 
@@ -68,29 +69,183 @@ body
     background-color:rgb(14, 16, 34) ;
     color: white;
     padding: 0rem 8%;
+    font-family: 'Poppins', sans-serif;
+    
 }
 .FirstLinePortfolio{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 160px;
+    padding: 20px 0px;
+    
+}
+.PortfolioSection p{
+    color:rgb(154, 163, 178) ;
+}
+.ImagePortfolio{
+    border-radius: 8px;
+    margin: 10px 0px;
 }
 .LineRightPortfolio{
     display: flex;
     gap: 20px;
+    list-style: none;
+}
+.LineRightPortfolio li{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 8px 4px 0px 4px;
+
+}
+.LineRightPortfolio li:hover{
+    background-color: rgb(123, 177, 0);
+    border-radius: 20px;
+
+}
+
+.LineRightPortfolio p{
+    background-color: rgb(24, 27, 44);
+    color: rgb(154, 163, 178);
+    border: 1px solid rgb(154, 163, 178);
+    display: flex;
+    border-radius: 10px;
+    /* width: 100px; */
+    
+    
 }
 .ContainerPargraphPortfolio{
     display: flex;
     gap: 10px;
+    margin: 10px 0px;
 }
+.IconStar{
+    color: rgb(251, 191, 36);
+}
+
 .ContainerPargraphPortfolio p{
     background-color: rgb(24, 27, 44);
     color: rgb(154, 163, 178);
     border: 1px solid rgb(154, 163, 178);
     display: flex;
-    width: 60px;
+    /* width: 50px; */
     border-radius: 10px;
-    text-align: center;
+    padding: 0px 10px;
     
 }
+.ContainerPargraphPortfolio p:hover{
+    background-color: rgb(123, 177, 0);
+    border-radius: 10px;
+    color: white;
+}
+.TitlePortfolio{
+    margin: 20px 0px;
+}
+.TittlePortfolio{
+    padding-bottom: 20px;
+  
+
+}
+.ContainerBoxesPortfolio{
+    display: flex;
+    padding-bottom: 20px;
+}
+.Portfolio{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ListLinePortfolio{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* !---------Why Us Section---------- */
+.WhyUsSection{
+    background-color:rgb(14, 16, 34) ;
+    color: white;
+    padding: 0rem 8%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+}
+
+
+.ContainerWyUs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+.ParagraphWhyUs{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Paragraph-Whyus{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.WhyUsLeft{
+    width: 30vw;
+}
+.SecondLine{
+    display: flex;
+    height: 30vh;
+    flex: 1;
+    border: 1px solid rgb(143, 144, 154);
+    padding: 1rem;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.ContainerSecondLine{
+    display: flex;
+    margin-top: 4rem;
+    
+}
+.FirstBoxWhyUs{
+    display: flex;
+    height: 30vh;
+    flex: 1;
+    border: 1px solid rgb(147, 143, 148);
+    padding: 1rem;
+    margin-bottom: 20px;
+    border-left: hidden;
+    border-right: hidden;
+    gap: 10px;
+}
+.ContainerSecondLine i{
+    color: rgb(124, 179, 0);
+    font-size: 30px;
+}
+.parWhyUs{
+    color: rgb(125, 181, 0);
+    font-size: 14px;
+    
+}
+.Paragraphee{
+    color: rgb(147, 143, 148);
+}
+.ContainerSecondLine h3{
+    padding: 10px 0px;
+}
+.ContainerThirdLine{
+    display: flex;
+    gap: 20px;
+    padding-top: 4rem;
+}
+.ThirdLineRight{
+    display: flex;
+    gap: 20px;
+    padding: 2rem;
+}
+.ParagraphNum{
+    color: rgb(123, 177, 0);
+    font-size: ;
+}
+
+
+
 
 /* *header-------------------- */
 .header{
