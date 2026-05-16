@@ -284,17 +284,13 @@ main{
     font-family: 'Poppins', sans-serif;
     border-bottom: 1px solid rgb(99, 101, 113);
 }
-.TeamSection h2 {
+.TeamSection h1 {
     padding-bottom: 2rem;
-    text-align: center;
 }
 .TeamSection h2{
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-size: 30px;
-}
-.ParagrapheeTeam{
-    text-align: center;
 }
 .ParagraphTeam{
     text-align: center;
@@ -302,9 +298,7 @@ main{
 .ContainerNum{
     display: flex;
     gap: 20px;
-    padding-top: 2rem;
-    border-top: 1px solid rgb(99, 101, 113);
-    margin-top: 25px;
+    padding-top: 4rem;
 
 }
 .Num{
@@ -405,12 +399,6 @@ main{
 .UnderLineTitle1{
     border-bottom: 2px solid rgb(123, 177, 0);
     padding-bottom: 10px;
-}
-.BoxNumTeam{
-    border-right: 1px solid rgb(99, 101, 113);
-    border-left: 1px solid rgb(99, 101, 113); 
-    padding-right: 40px;
-    padding-left: 10px;
 }
 
 
@@ -861,4 +849,198 @@ gap: 10px;
 .h2section3div13{
    margin-top: 10px;
    
+}
+/* *section9 */
+.section9{background-color: white;
+    color: black; 
+
+}
+.section9div4{
+     display: flex;
+    justify-content: center;
+    height: 0.2vh;
+    background-color: rgb(118, 119, 121);
+    width: 20vw; 
+}
+.h1section9div3{
+    margin-bottom: 15px;
+}
+.section9div5{
+    height: 1vh;
+    background-color: rgb(5, 168, 5);
+    width: 6vw;
+}
+.section9div1{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.section9div2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section9div6{
+margin-top: 25px;
+color:white;
+}
+/* *section7 */
+section
+.section7{
+    background-color:rgb(14, 16, 34);
+     color: white; 
+    margin-left: 60px;
+    padding: 40px 0px 40px 0px;
+    background-color: white;
+    background-color: rgb(14, 16, 34);
+    margin-top: 15%;
+
+}
+.section7div12{
+     display: flex;
+    justify-content: center;
+    height: 0.2vh;
+    background-color: rgb(118, 119, 121);
+    width: 20vw; 
+}
+.h1section7div2testimonials{
+    margin-bottom: 15px;
+}
+.section7div13{
+    height: 1vh;
+    background-color: rgb(5, 168, 5);
+    width: 6vw;
+}
+.section7div1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+
+}
+.section7div2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section7div3{
+margin-top: 25px;
+color:white; 
+}
+div2 section7
+.section7div00{
+    display: flex;
+  flex-direction: row;
+    /* align-items: center; */
+    gap: 80px;
+ margin-left: 80px;
+padding-left: 20px;
+}
+.section7div5{
+    background-color: rgb(24, 27, 40);
+    border: 1px solid black;
+    width: 30%;
+    color: white;
+    margin-top: 15px;
+    padding-top: 30px;
+
+
+}
+.section7div6{
+    margin-left: 20px;
+
+}
+.section7div7{
+    color: rgb(255, 196, 36);
+    margin-bottom: 20px;
+
+}
+.section7div8{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 20px;
+    gap: 15px;
+
+}
+.image1section7{
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+}
+.section7div9{
+    gap: 10px;
+    text-align: center; 
+     display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+.section7div10{
+    color: rgb(123, 177, 0);
+    display: flex;
+    text-align: right;
+     width: 5%; 
+    margin-bottom: 20px;
+    /* background-color: chartreuse;  */
+}
+.section7div10{
+    width: 30%;
+    margin-left: 370px;
+    margin-left: 70px;
+    text-align: center;
+}
+.textesection7{
+    width: 90%;
+     /* background-color: blueviolet;  */
+}
+.ptextesection7{
+      width: 100%;
+     /* background-color:red;  */
+    color: gray;
+    flex-direction: row;
+}
+.line{
+    width: 90%;
+    height: 3px;
+    border-top: 1px solid gray;
+    margin: 20px auto;
+
+
+}
+ div3 section7
+.section7div11{
+    /* display: flex; */
+    /* flex-direction: row; */
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 60px;
+    
+
+}
+.section7div12icons1{
+    border: 1px solid gray;
+    border-radius: 100px;
+    width: 4%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+
+}
+.section7div13icons2{
+  border: 1px solid gray;
+    border-radius: 100px;
+    width: 4%;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.section7div12icons1:hover{
+    background-color: rgb(229, 230, 234);
+}
+.section7div13icons2:hover{
+    background-color:rgb(229, 230, 234);
 }
