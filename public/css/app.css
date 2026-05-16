@@ -520,6 +520,8 @@ background: linear-gradient(84deg,rgba(156, 227, 2, 1) 0%, rgba(152, 191, 94, 1)
 /* *div2 */
 .section2div8{
     position: relative;
+    margin-left: 60px;
+    
 }
 .section2div10{
     border: 1px solid black;
@@ -534,7 +536,7 @@ background: linear-gradient(84deg,rgba(156, 227, 2, 1) 0%, rgba(152, 191, 94, 1)
 .section2div9{
     border: 1px black solid;
     border-radius: 10px;
-    width: 620px;
+    width:620px;
     margin-top: 10px;
     display: flex;
     background-color: rgb(32, 35, 48);
@@ -569,13 +571,14 @@ background: linear-gradient(84deg,rgba(156, 227, 2, 1) 0%, rgba(152, 191, 94, 1)
 }
 .image1section2{
    width: 620px;
-  height: 346px; 
+  height: 370px; 
   display: flex;
   justify-content: right;
   /* margin-left: 1px;  */
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   position: relative;
+  
 }
 /* *div3 */
 .section2div3div1{
@@ -603,7 +606,7 @@ font-weight: bold;
 
 }
 .section2div13{
-    padding: 10px 0px 30px 0px;
+    padding: 10px 0px 4px 0px;
 width:3%;
 color: white;
 text-align: center;
