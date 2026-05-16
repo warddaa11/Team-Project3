@@ -284,13 +284,17 @@ main{
     font-family: 'Poppins', sans-serif;
     border-bottom: 1px solid rgb(99, 101, 113);
 }
-.TeamSection h1 {
+.TeamSection h2 {
     padding-bottom: 2rem;
+    text-align: center;
 }
 .TeamSection h2{
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-size: 30px;
+}
+.ParagrapheeTeam{
+    text-align: center;
 }
 .ParagraphTeam{
     text-align: center;
@@ -298,7 +302,9 @@ main{
 .ContainerNum{
     display: flex;
     gap: 20px;
-    padding-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgb(99, 101, 113);
+    margin-top: 25px;
 
 }
 .Num{
@@ -399,6 +405,12 @@ main{
 .UnderLineTitle1{
     border-bottom: 2px solid rgb(123, 177, 0);
     padding-bottom: 10px;
+}
+.BoxNumTeam{
+    border-right: 1px solid rgb(99, 101, 113);
+    border-left: 1px solid rgb(99, 101, 113); 
+    padding-right: 40px;
+    padding-left: 10px;
 }
 
 
