@@ -6,15 +6,20 @@ body{
     background-color: rgb(14, 16, 34);
 }
 
+
 /* !-----------Hero Section----------- */
 .HeroSection{
     background-color: rgb(14, 16, 34);
     padding: 4rem 8%;
     color: white;
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
+    min-height:100vh;
     
 }
+.HeroSection h1{
+    font-size: 48px;
+}
+
 .ContianerHeroSection{
     display: flex;
 }
@@ -72,20 +77,24 @@ body{
     color: white;
     padding: 0rem 8%;
     font-family: 'Poppins', sans-serif;
+}
+.Portfolio h3{
+    color: white;
+    font-weight: lighter;
+    padding: 20px 0px;
     
 }
 .FirstLinePortfolio{
     display: flex;
-    /* justify-content: space-between; */
-    gap: 160px;
+    /* gap: 160px; */
+    justify-content: space-between;
     padding: 20px 0px;
-    
 }
 .PortfolioSection p{
     color:rgb(154, 163, 178) ;
 }
 .ImagePortfolio{
-    border-radius: 8px;
+    border-radius: 4px;
     margin: 10px 0px;
 }
 .LineRightPortfolio{
@@ -94,7 +103,7 @@ body{
     list-style: none;
 }
 .LineRightPortfolio li{
-    border: 1px solid gray;
+    border: 1px solid rgb(99, 101, 113);
     border-radius: 20px;
     padding: 8px 4px 0px 4px;
 
@@ -149,18 +158,34 @@ body{
 }
 .ContainerBoxesPortfolio{
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
     padding-bottom: 20px;
+}
+.BoxPortfolio{
+    border-bottom: 1px solid rgb(99, 101, 113);
+    padding-bottom: 15px;
+    flex: 1;
+    flex-direction: column;
+}
+.ImagePortfolio{
+    width: 100%;
+    max-width: 520px;
 }
 .Portfolio{
     text-align: center;
     margin-bottom: 20px;
 }
 .ListLinePortfolio{
+    margin-top: 30px;
+    border-top: 1px solid rgb(99, 101, 113);
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 40px;
 }
+
 
 /* !---------Why Us Section---------- */
 .WhyUsSection{
@@ -168,7 +193,7 @@ body{
     color: white;
     padding: 0rem 8%;
     font-family: 'Poppins', sans-serif;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 
@@ -235,11 +260,14 @@ body{
     display: flex;
     gap: 20px;
     padding-top: 4rem;
+
 }
 .ThirdLineRight{
     display: flex;
     gap: 20px;
     padding: 2rem;
+    border-bottom: 1px solid rgb(99, 101, 113);
+
 }
 .ParagraphNum{
     color: rgb(123, 177, 0);
@@ -250,6 +278,7 @@ body{
     color: white;
     padding: 4rem 8%;
     font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid rgb(99, 101, 113);
 }
 .TeamSection h1 {
     padding-bottom: 2rem;
@@ -259,10 +288,14 @@ body{
     padding-top: 1rem;
     font-size: 30px;
 }
+.ParagraphTeam{
+    text-align: center;
+}
 .ContainerNum{
     display: flex;
     gap: 20px;
     padding-top: 4rem;
+
 }
 .Num{
     color:rgb(123, 177, 0) ;
@@ -280,6 +313,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid rgb(99, 101, 113);
+    padding-bottom: 40px;
 }
 .Leadership{
     display: flex;
