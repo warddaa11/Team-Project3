@@ -284,13 +284,17 @@ main{
     font-family: 'Poppins', sans-serif;
     border-bottom: 1px solid rgb(99, 101, 113);
 }
-.TeamSection h1 {
-    padding-bottom: 2rem;
+.TitleTeam{
+    text-align: center;
 }
 .TeamSection h2{
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-size: 30px;
+}
+.ParagrapheeTeam{
+    text-align: center;
+    padding-top: 1rem;
 }
 .ParagraphTeam{
     text-align: center;
@@ -298,9 +302,19 @@ main{
 .ContainerNum{
     display: flex;
     gap: 20px;
-    padding-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgb(99, 101, 113);
+    margin-top: 3rem;
 
 }
+.BoxNumTeam{
+    border-left: 1px solid rgb(99, 101, 113);
+    border-right: 1px solid rgb(99, 101, 113);
+    padding-right: 4rem;
+    padding-left: 1rem;
+    margin-left: 2rem;
+}
+
 .Num{
     color:rgb(123, 177, 0) ;
     font-size: 30px;
@@ -318,7 +332,7 @@ main{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgb(99, 101, 113);
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 .Leadership{
     display: flex;
@@ -462,7 +476,7 @@ a{
     display: flex;
     text-align: center;
     flex-direction: column;
-    gap: 7px;
+    gap: 10px;
     color: white;
     margin-bottom: 90px;
 }
@@ -559,7 +573,7 @@ background: linear-gradient(84deg,rgba(156, 227, 2, 1) 0%, rgba(152, 191, 94, 1)
 /* *div2 */
 .section2div8{
     position: relative;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     
 }
 .section2div10{
@@ -885,19 +899,21 @@ margin-top: 25px;
 color:white;
 }
 /* *section7 */
-section
+
 .section7{
     background-color:rgb(14, 16, 34);
      color: white; 
-    margin-left: 60px;
-    padding: 40px 0px 40px 0px;
+    /* margin-left: 60px; */
+    /* padding: 40px 0px 40px 0px; */
     background-color: white;
     background-color: rgb(14, 16, 34);
     margin-top: 15%;
+    
+    
 
 }
 .section7div12{
-     display: flex;
+    display: flex;
     justify-content: center;
     height: 0.2vh;
     background-color: rgb(118, 119, 121);
@@ -905,6 +921,7 @@ section
 }
 .h1section7div2testimonials{
     margin-bottom: 15px;
+    margin-top: 0px;
 }
 .section7div13{
     height: 1vh;
@@ -926,19 +943,20 @@ section
 margin-top: 25px;
 color:white; 
 }
-div2 section7
+
 .section7div00{
     display: flex;
   flex-direction: row;
-    /* align-items: center; */
-    gap: 80px;
- margin-left: 80px;
-padding-left: 20px;
+    justify-content: center;
+    gap: 30px;
+   
+ /* margin-left: 30px; */
+/* padding-left: 20px; */
 }
 .section7div5{
     background-color: rgb(24, 27, 40);
     border: 1px solid black;
-    width: 30%;
+    width: 500px;
     color: white;
     margin-top: 15px;
     padding-top: 30px;
@@ -983,9 +1001,9 @@ padding-left: 20px;
     /* background-color: chartreuse;  */
 }
 .section7div10{
-    width: 30%;
-    margin-left: 370px;
-    margin-left: 70px;
+    /* width: 30%; */
+    /* margin-left: 370px; */
+    /* margin-left: 70px; */
     text-align: center;
 }
 .textesection7{
@@ -1007,40 +1025,35 @@ padding-left: 20px;
 
 }
  div3 section7
-.section7div11{
-    /* display: flex; */
-    /* flex-direction: row; */
-    gap: 20px;
+.CONTDIV{
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    background-color: RED;
+    
+    
+}
+
+.CONTDIV i{
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-right: 60px;
-    
-
-}
-.section7div12icons1{
-    border: 1px solid gray;
-    border-radius: 100px;
-    width: 4%;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    padding: 10px;
-
-}
-.section7div13icons2{
-  border: 1px solid gray;
-    border-radius: 100px;
-    width: 4%;
-    color: white;
-    font-size: 30px;
     align-items: center;
-    text-align: center;
-    padding: 10px;
+    flex-direction: column;
+
 }
-.section7div12icons1:hover{
+
+/* .CONTDIV i:hover{
     background-color: rgb(229, 230, 234);
+    color: black;
 }
-.section7div13icons2:hover{
-    background-color:rgb(229, 230, 234);
-}
+
+.CONTDIV:hover{
+    background-color: rgb(229, 230, 234);
+} */
